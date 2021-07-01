@@ -12,7 +12,20 @@ function App() {
 
         <Dictionary />
 
-        <footer className="App-footer">Coded by Manal</footer>
+        <footer>
+        This project was coded by Manal Alduraibi🐞 and is Open-sourced on {""} 
+          <a
+            href="https://github.com/duraibim/react-dictionary" 
+            target="_blank"
+            rel="noopener noreferrer"
+          >  GitHub</a> and hosted on <a
+          href="https://flamboyant-visvesvaraya-0043f6.netlify.app" 
+          target="_blank"
+          rel="noopener noreferrer"
+        > Netlify</a> 
+          
+          
+          </footer> 
       </div>
     </div>
   );
