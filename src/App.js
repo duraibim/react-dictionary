@@ -12,7 +12,7 @@ function App() {
 
         <Dictionary />
 
-        <footer>
+        <footer className="App-footer">
         This project was coded by Manal Alduraibi🐞 and is Open-sourced on {""} 
           <a
             href="https://github.com/duraibim/react-dictionary" 

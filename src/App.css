@@ -10,5 +10,7 @@
 
 .App-footer{
   text-align: center;
-  margin: 20px 0;
+    font-size: 11px;
+    margin: 10px 0;
+  
 }
