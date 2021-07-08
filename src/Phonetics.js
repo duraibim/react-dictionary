@@ -14,7 +14,7 @@ export default function Phonetics(props){
     
         <div className="Phonetics">
             <span onClick={playSound} >
-                Listen  
+            ▶️ Listen  
             </span> 
             {props.phonetic.text} 
 
