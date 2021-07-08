@@ -4,10 +4,16 @@ import "./Phonetics.css"
 
 
 export default function Phonetics(props){
-    return (
+        const audio = new Audio(props.phonetic.audio)
+
+        function playSound() {
+            audio.play();
+        }
+
+        return(
     
         <div className="Phonetics">
-            <a href={props.phonetic.audio} target="_blank" rel="noreferrer" >
+            <a href="#" onClick={playSound} >
                 Listen
             </a> 
             {props.phonetic.text}
