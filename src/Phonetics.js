@@ -13,10 +13,10 @@ export default function Phonetics(props){
         return(
     
         <div className="Phonetics">
-            <a href="#" onClick={playSound} >
-                Listen
-            </a> 
-            {props.phonetic.text}
+            <span onClick={playSound} >
+                Listen  
+            </span> 
+            {props.phonetic.text} 
 
 
         </div>
