@@ -1,4 +1,4 @@
-import images from "./images.gif";
+// import images from "./images.gif";
 import Dictionary from "./Dictionary";
 import './App.css';
 
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={images} className="images img-fluid" alt="images"/>     
+
         </header>
 
         <Dictionary />
